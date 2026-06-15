@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorSurface"
+        app:title="@string/settings" />
+
+    <LinearLayout
+        android:id="@+id/row_theme"
+        style="@style/SettingsRow">
+
+        <TextView
+            style="@style/SettingsRowTitle"
+            android:text="@string/setting_theme" />
+
+        <TextView
+            android:id="@+id/theme_value"
+            style="@style/SettingsRowValue" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row_font"
+        style="@style/SettingsRow">
+
+        <TextView
+            style="@style/SettingsRowTitle"
+            android:text="@string/setting_font_size" />
+
+        <TextView
+            android:id="@+id/font_value"
+            style="@style/SettingsRowValue" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row_sort"
+        style="@style/SettingsRow">
+
+        <TextView
+            style="@style/SettingsRowTitle"
+            android:text="@string/setting_sort" />
+
+        <TextView
+            android:id="@+id/sort_value"
+            style="@style/SettingsRowValue" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row_app_lock"
+        style="@style/SettingsRow">
+
+        <TextView
+            style="@style/SettingsRowTitle"
+            android:text="@string/app_lock" />
+
+        <TextView
+            android:id="@+id/app_lock_value"
+            style="@style/SettingsRowValue" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row_auto_backup"
+        style="@style/SettingsRow">
+
+        <TextView
+            style="@style/SettingsRowTitle"
+            android:text="@string/setting_auto_backup" />
+
+        <TextView
+            android:id="@+id/auto_backup_value"
+            style="@style/SettingsRowValue" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row_backup"
+        style="@style/SettingsRow">
+
+        <TextView
+            style="@style/SettingsRowTitle"
+            android:text="@string/setting_backup" />
+
+        <TextView
+            style="@style/SettingsRowValue"
+            android:text="@string/setting_backup_desc" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row_restore"
+        style="@style/SettingsRow">
+
+        <TextView
+            style="@style/SettingsRowTitle"
+            android:text="@string/setting_restore" />
+
+        <TextView
+            style="@style/SettingsRowValue"
+            android:text="@string/setting_restore_desc" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/SettingsRow">
+
+        <TextView
+            style="@style/SettingsRowTitle"
+            android:text="@string/setting_version" />
+
+        <TextView
+            android:id="@+id/version_value"
+            style="@style/SettingsRowValue" />
+    </LinearLayout>
+</LinearLayout>

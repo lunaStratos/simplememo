@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">SimpleMemo</string>
+    <string name="memos">Memos</string>
+    <string name="new_memo">New memo</string>
+    <string name="search">Search</string>
+    <string name="trash">Trash</string>
+    <string name="settings">Settings</string>
+    <string name="share">Share</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="empty_list">No memos yet.\nTap the + button to write one.</string>
+    <string name="empty_search">No results found.</string>
+    <string name="empty_trash_list">Trash is empty.</string>
+    <string name="no_title">(Empty)</string>
+
+    <string name="memo_hint">Write a memo</string>
+    <string name="char_count">%1$d chars</string>
+    <string name="blank_deleted">Empty memo deleted.</string>
+    <string name="deleted_to_trash">Moved to trash.</string>
+    <string name="delete_confirm_title">Delete memo</string>
+    <string name="delete_confirm">Move this memo to the trash?</string>
+
+    <string name="undo">Undo</string>
+    <string name="restore">Restore</string>
+    <string name="restored">Restored.</string>
+    <string name="delete_forever">Delete forever</string>
+    <string name="delete_forever_confirm">Delete this memo permanently? This cannot be undone.</string>
+    <string name="empty_trash">Empty trash</string>
+    <string name="empty_trash_confirm">Permanently delete all memos in the trash?</string>
+
+    <string name="setting_theme">Theme</string>
+    <string name="theme_system">System default</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="setting_font_size">Font size</string>
+    <string name="font_small">Small</string>
+    <string name="font_normal">Normal</string>
+    <string name="font_large">Large</string>
+    <string name="font_xlarge">Extra large</string>
+    <string name="setting_sort">Sort</string>
+    <string name="sort_updated">Last edited</string>
+    <string name="sort_created_desc">Newest created</string>
+    <string name="sort_created_asc">Oldest created</string>
+    <string name="sort_title">Alphabetical</string>
+    <string name="sort_manual">Custom order</string>
+    <string name="sort_changed_manual">Saved your custom order.</string>
+    <string name="setting_version">Version</string>
+
+    <string name="memo_color">Memo color</string>
+    <string name="color_none">No color</string>
+    <string-array name="memo_color_names">
+        <item>No color</item>
+        <item>Red</item>
+        <item>Orange</item>
+        <item>Yellow</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Purple</item>
+    </string-array>
+
+    <string name="setting_backup">Backup</string>
+    <string name="setting_backup_desc">Export to JSON file</string>
+    <string name="setting_restore">Restore</string>
+    <string name="setting_restore_desc">Import from JSON file</string>
+    <string name="restore_confirm">This will replace all current memos with the ones in the backup file. Continue?</string>
+    <string name="backup_done">Backup complete.</string>
+    <string name="backup_failed">Backup failed.</string>
+    <string name="restore_done">Restored %1$d memos.</string>
+    <string name="restore_failed">Restore failed. Make sure it is a valid backup file.</string>
+
+    <string name="pin">Pin</string>
+    <string name="unpin">Unpin</string>
+    <string name="pinned">Pinned.</string>
+    <string name="unpinned">Unpinned.</string>
+    <string name="redo">Redo</string>
+    <string name="checklist">Checklist</string>
+    <string name="needs_content">Write something first.</string>
+
+    <string name="reminder">Reminder</string>
+    <string name="change">Change</string>
+    <string name="reminder_remove">Remove reminder</string>
+    <string name="reminder_removed">Reminder removed.</string>
+    <string name="reminder_set">Reminder: %1$s</string>
+    <string name="reminder_past">Pick a time in the future.</string>
+    <string name="reminder_inexact">Without the exact alarm permission, reminders may be delayed by a few minutes. Allow \'Alarms &amp; reminders\' in settings for exact timing.</string>
+    <string name="open_settings">Open settings</string>
+    <string name="notification_channel_reminders">Memo reminders</string>
+
+    <string name="filter">Filter</string>
+    <string name="filter_color">Color filter</string>
+    <string name="filter_tag">Tag filter</string>
+    <string name="filter_clear">Clear filter</string>
+    <string name="filter_all">All</string>
+    <string name="filter_subtitle">Filter: %1$s</string>
+    <string name="no_tags">No tags yet. Write #tags in your memos to collect them here.</string>
+
+    <string name="select">Select</string>
+    <string name="selected_count">%1$d selected</string>
+
+    <string name="app_lock">App lock</string>
+    <string name="app_lock_title">Unlock SimpleMemo</string>
+    <string name="app_lock_unavailable">Lock is unavailable on this device. Set up a screen lock first.</string>
+    <string name="unlock">Unlock</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+
+    <string name="setting_auto_backup">Auto backup</string>
+    <string name="auto_backup_on">Daily (keeps last 7 in app folder)</string>
+
+    <string name="empty_list_short">No memos</string>
+</resources>

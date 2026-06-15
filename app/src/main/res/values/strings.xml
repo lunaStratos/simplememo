@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">심플메모</string>
+    <string name="memos">메모</string>
+    <string name="new_memo">새 메모</string>
+    <string name="search">검색</string>
+    <string name="trash">휴지통</string>
+    <string name="settings">설정</string>
+    <string name="share">공유</string>
+    <string name="delete">삭제</string>
+    <string name="cancel">취소</string>
+
+    <string name="empty_list">메모가 없습니다.\n오른쪽 아래 + 버튼으로 메모를 작성하세요.</string>
+    <string name="empty_search">검색 결과가 없습니다.</string>
+    <string name="empty_trash_list">휴지통이 비어 있습니다.</string>
+    <string name="no_title">(내용 없음)</string>
+
+    <string name="memo_hint">메모를 입력하세요</string>
+    <string name="char_count">%1$d자</string>
+    <string name="blank_deleted">빈 메모를 삭제했습니다.</string>
+    <string name="deleted_to_trash">휴지통으로 이동했습니다.</string>
+    <string name="delete_confirm_title">메모 삭제</string>
+    <string name="delete_confirm">이 메모를 휴지통으로 이동할까요?</string>
+
+    <string name="undo">실행 취소</string>
+    <string name="restore">복원</string>
+    <string name="restored">복원했습니다.</string>
+    <string name="delete_forever">완전 삭제</string>
+    <string name="delete_forever_confirm">이 메모를 완전히 삭제할까요? 되돌릴 수 없습니다.</string>
+    <string name="empty_trash">휴지통 비우기</string>
+    <string name="empty_trash_confirm">휴지통의 모든 메모를 완전히 삭제할까요?</string>
+
+    <string name="setting_theme">테마</string>
+    <string name="theme_system">시스템 설정</string>
+    <string name="theme_light">라이트</string>
+    <string name="theme_dark">다크</string>
+    <string name="setting_font_size">글자 크기</string>
+    <string name="font_small">작게</string>
+    <string name="font_normal">보통</string>
+    <string name="font_large">크게</string>
+    <string name="font_xlarge">아주 크게</string>
+    <string name="setting_sort">정렬</string>
+    <string name="sort_updated">수정일순</string>
+    <string name="sort_created_desc">최근 작성순</string>
+    <string name="sort_created_asc">오래된 작성순</string>
+    <string name="sort_title">가나다순</string>
+    <string name="sort_manual">직접 정렬순</string>
+    <string name="sort_changed_manual">직접 정렬한 순서로 저장했습니다.</string>
+    <string name="setting_version">버전</string>
+
+    <string name="memo_color">메모 색상</string>
+    <string name="color_none">색상 없음</string>
+    <string-array name="memo_color_names">
+        <item>색상 없음</item>
+        <item>빨강</item>
+        <item>주황</item>
+        <item>노랑</item>
+        <item>초록</item>
+        <item>파랑</item>
+        <item>보라</item>
+    </string-array>
+
+    <string name="setting_backup">백업</string>
+    <string name="setting_backup_desc">JSON 파일로 내보내기</string>
+    <string name="setting_restore">복원</string>
+    <string name="setting_restore_desc">JSON 파일에서 가져오기</string>
+    <string name="restore_confirm">백업 파일의 메모로 현재 메모를 모두 교체합니다. 계속할까요?</string>
+    <string name="backup_done">백업했습니다.</string>
+    <string name="backup_failed">백업에 실패했습니다.</string>
+    <string name="restore_done">%1$d개의 메모를 복원했습니다.</string>
+    <string name="restore_failed">복원에 실패했습니다. 올바른 백업 파일인지 확인하세요.</string>
+
+    <string name="pin">고정</string>
+    <string name="unpin">고정 해제</string>
+    <string name="pinned">고정했습니다.</string>
+    <string name="unpinned">고정을 해제했습니다.</string>
+    <string name="redo">다시 실행</string>
+    <string name="checklist">체크리스트</string>
+    <string name="needs_content">내용을 입력한 후 사용할 수 있습니다.</string>
+
+    <string name="reminder">알림</string>
+    <string name="change">변경</string>
+    <string name="reminder_remove">알림 해제</string>
+    <string name="reminder_removed">알림을 해제했습니다.</string>
+    <string name="reminder_set">알림: %1$s</string>
+    <string name="reminder_past">미래 시각을 선택하세요.</string>
+    <string name="reminder_inexact">정확한 알람 권한이 없어 알림이 몇 분 지연될 수 있습니다. 설정에서 \'알람 및 리마인더\'를 허용하면 정확한 시각에 알림을 받을 수 있습니다.</string>
+    <string name="open_settings">설정 열기</string>
+    <string name="notification_channel_reminders">메모 알림</string>
+
+    <string name="filter">필터</string>
+    <string name="filter_color">색상 필터</string>
+    <string name="filter_tag">태그 필터</string>
+    <string name="filter_clear">필터 해제</string>
+    <string name="filter_all">전체</string>
+    <string name="filter_subtitle">필터: %1$s</string>
+    <string name="no_tags">태그가 없습니다. 본문에 #태그 형식으로 적으면 여기에서 모아볼 수 있습니다.</string>
+
+    <string name="select">선택</string>
+    <string name="selected_count">%1$d개 선택</string>
+
+    <string name="app_lock">앱 잠금</string>
+    <string name="app_lock_title">심플메모 잠금 해제</string>
+    <string name="app_lock_unavailable">이 기기에서는 잠금을 사용할 수 없습니다. 화면 잠금을 먼저 설정하세요.</string>
+    <string name="unlock">잠금 해제</string>
+    <string name="on">켬</string>
+    <string name="off">끔</string>
+
+    <string name="setting_auto_backup">자동 백업</string>
+    <string name="auto_backup_on">매일 (앱 폴더에 최근 7개 보관)</string>
+
+    <string name="empty_list_short">메모가 없습니다</string>
+</resources>

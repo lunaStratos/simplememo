@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 적응형 아이콘 안전 영역에 맞도록 원본 이미지를 안쪽으로 인셋 -->
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/icon"
+    android:inset="18%" />
